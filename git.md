@@ -27,7 +27,7 @@ Version control : tempat penyimpanan file dengan fitur khusus:
 * tagging (memberi nama) versi tertentu
 * merge : menggabungkan perubahan pada file
 
-Aplikasi Version Control: 
+## Aplikasi Version Control ## 
 
 * Centralized : database terpusat di satu mesin / server
 
@@ -40,13 +40,14 @@ Aplikasi Version Control:
     * Bazaar
 
 
-Service Provider Version Control
+## Service Provider Version Control ##
 
 * [Github](https://github.com) : gratis asal public. Bayar sesuai private repo.
 * [Bitbucket](https://bitbucket.org) : gratis public maupun private. Bayar sesuai team member.
 * SourceForge
 
-Aplikasi Server
+## Aplikasi Server ##
+
 
 * [Gitolite](http://gitolite.com/gitolite/index.html) : command line, tidak ada UI, edit text file untuk konfigurasi
 * [Gitblit](http://www.gitblit.com/) : web based, java, tampilan jelek
