@@ -46,5 +46,10 @@ Service Provider Version Control
 * [Bitbucket](https://bitbucket.org) : gratis public maupun private. Bayar sesuai team member.
 * SourceForge
 
+Aplikasi Server
+
+* [Gitolite](http://gitolite.com/gitolite/index.html) : command line, tidak ada UI, edit text file untuk konfigurasi
+* [Gitblit](http://www.gitblit.com/) : web based, java, tampilan jelek
+* [Gitlab](https://about.gitlab.com/) : web based, tampilan bagus, instalasi sulit
 
 
