@@ -53,4 +53,18 @@ Version control : tempat penyimpanan file dengan fitur khusus:
 * [Gitblit](http://www.gitblit.com/) : web based, java, tampilan jelek
 * [Gitlab](https://about.gitlab.com/) : web based, tampilan bagus, instalasi sulit
 
+## Menggunakan Git ##
+
+* Membuat repository baru
+
+    ```
+    git init namafolder
+    ```
+
+* Mengambil repository yang sudah ada di Github
+
+    ```
+    git clone <url>
+    ```
+
 
