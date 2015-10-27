@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="kd" class="belajar.KoneksiDatabase">
+        <property name="host" value="192.168.100.10"></property>
+        <property name="namaDatabase" value="belajarspring"></property>
+        <property name="username" value="userspring"></property>
+        <property name="password" value="passwordspring"></property>
+    </bean>
+    
+</beans>
