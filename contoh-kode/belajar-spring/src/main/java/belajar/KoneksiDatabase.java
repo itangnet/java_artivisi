@@ -6,6 +6,10 @@ public class KoneksiDatabase{
     private String username;
     private String password;
 
+    public void jalankan(String sql){
+        System.out.println("Menjalankan SQL : "+sql);
+    }
+
     public String getHost() {
         return host;
     }
