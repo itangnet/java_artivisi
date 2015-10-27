@@ -1,7 +1,9 @@
 package belajar;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("cd")
 public class CustomerDao {
     private KoneksiDatabase koneksi;
 

@@ -9,7 +9,7 @@
         ">
 
     
-    <context:annotation-config/>
+    <context:component-scan base-package="belajar"/>
 
     <bean id="kd" class="belajar.KoneksiDatabase">
         <property name="host" value="192.168.100.10"></property>
@@ -18,8 +18,9 @@
         <property name="password" value="passwordspring"></property>
     </bean>
 
+    <!--
     <bean id="cd" class="belajar.CustomerDao">
-       <!-- <property name="koneksiDatabase" ref="kd"></property> -->
+       <property name="koneksiDatabase" ref="kd"></property> 
     </bean>
-    
+    -->
 </beans>
