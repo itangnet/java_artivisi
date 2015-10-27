@@ -15,7 +15,7 @@
     <bean id="kd" class="belajar.KoneksiDatabase">
         <property name="host" value="${host}"></property>
         <property name="namaDatabase" value="${nama}"></property>
-        <property name="username" value="${username}"></property>
+        <property name="username" value="${userdb}"></property>
         <property name="password" value="${password}"></property>
     </bean>
 
