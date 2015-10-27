@@ -10,5 +10,9 @@
         <property name="username" value="userspring"></property>
         <property name="password" value="passwordspring"></property>
     </bean>
+
+    <bean id="cd" class="belajar.CustomerDao">
+        <property name="koneksiDatabase" ref="kd"></property>
+    </bean>
     
 </beans>
