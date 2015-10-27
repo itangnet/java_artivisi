@@ -10,12 +10,13 @@
 
     
     <context:component-scan base-package="belajar"/>
+    <context:property-placeholder location="classpath:koneksi.properties"/>
 
     <bean id="kd" class="belajar.KoneksiDatabase">
-        <property name="host" value="192.168.100.10"></property>
-        <property name="namaDatabase" value="belajarspring"></property>
-        <property name="username" value="userspring"></property>
-        <property name="password" value="passwordspring"></property>
+        <property name="host" value="${host}"></property>
+        <property name="namaDatabase" value="${nama}"></property>
+        <property name="username" value="${username}"></property>
+        <property name="password" value="${password}"></property>
     </bean>
 
     <!--
