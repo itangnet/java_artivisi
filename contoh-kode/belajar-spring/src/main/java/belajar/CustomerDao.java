@@ -1,8 +1,11 @@
 package belajar;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class CustomerDao {
     private KoneksiDatabase koneksi;
 
+    @Autowired
     public void setKoneksiDatabase(KoneksiDatabase k){
         koneksi = k;
     }
